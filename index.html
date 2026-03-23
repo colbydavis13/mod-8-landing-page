@@ -3,9 +3,336 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Colby Davis — Business Analytics &amp; Finance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a class="nav-brand" href="#hero">Colby Davis</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero -->
+        <section id="hero" class="section hero">
+            <div class="container hero-inner">
+                <img
+                    src="images/colbydavis_headshot.jpg"
+                    alt="Colby Davis professional headshot"
+                    class="hero-photo"
+                    width="160"
+                    height="160"
+                >
+                <div class="hero-text">
+                    <h1>Colby Davis</h1>
+                    <p class="hero-tagline">Business Analytics &amp; Finance student driving data-informed decisions</p>
+                    <p class="hero-sub">University of Iowa &middot; GPA 3.80 &middot; Anticipated May 2027</p>
+                    <div class="hero-ctas">
+                        <a
+                            href="https://www.linkedin.com/in/colby-davis-6226342b6"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary"
+                        >View LinkedIn</a>
+                        <a
+                            href="resume/colbydavis_resume.pdf"
+                            download
+                            class="btn btn-secondary"
+                        >Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="section section-alt">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I'm a Business Analytics and Finance student at the University of Iowa with a 3.80 GPA, pursuing dual degrees and a certificate in Entrepreneurial Management. I'm passionate about translating complex data into clear, actionable insights that drive business decisions — particularly in finance, consulting, and corporate business intelligence.
+                </p>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Education</h3>
+                        <p class="institution">The University of Iowa &mdash; Iowa City, IA</p>
+                        <p class="degree">Bachelor of Business Administration<br><strong>Business Analytics &amp; Information Systems</strong></p>
+                        <p class="degree">Bachelor of Business Administration<br><strong>Finance</strong></p>
+                        <p class="degree">Certificate: <strong>Entrepreneurial Management</strong></p>
+                        <p class="detail">Anticipated Graduation: May 2027</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Achievements</h3>
+                        <ul class="achievement-list">
+                            <li>GPA: <strong>3.80</strong></li>
+                            <li>Dean's List &mdash; 5 semesters</li>
+                            <li>Iowa Flagship Award</li>
+                            <li>3.85 GPA during CIMBA Study Abroad (Italy)</li>
+                        </ul>
+                        <h3 class="interests-heading">Career Interests</h3>
+                        <p>Business Analytics &middot; Financial Analysis &middot; Data-Driven Strategy &middot; Business Intelligence</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Web-Based Movie Analytics Application</h3>
+                            <span class="project-date">Sept &ndash; Dec 2025</span>
+                        </div>
+                        <div class="project-tools">
+                            <span class="tool-badge">SQL</span>
+                            <span class="tool-badge">Oracle APEX</span>
+                            <span class="tool-badge">Data Modeling</span>
+                        </div>
+                        <ul class="project-bullets">
+                            <li>Designed a fully normalized (3NF) relational database supporting 5,000+ movies and rating records</li>
+                            <li>Conducted analysis to answer 10+ business research questions using advanced SQL queries</li>
+                            <li>Built a public-facing Oracle APEX application with interactive dashboards for non-technical users</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Marketplace Bicycle Simulation</h3>
+                            <span class="project-date">Sept &ndash; Dec 2025</span>
+                        </div>
+                        <div class="project-tools">
+                            <span class="tool-badge">Financial Forecasting</span>
+                            <span class="tool-badge">GAAP</span>
+                            <span class="tool-badge">Excel</span>
+                        </div>
+                        <ul class="project-bullets">
+                            <li>Led financial and analytical strategy for a simulated bicycle company in a competitive marketplace</li>
+                            <li>Developed forecasts and applied GAAP principles to guide pricing and operational decisions</li>
+                            <li>Achieved highest total sales among six competing teams</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Multi-Dataset Regression Analysis</h3>
+                            <span class="project-date">Statistical Research</span>
+                        </div>
+                        <div class="project-tools">
+                            <span class="tool-badge">Python</span>
+                            <span class="tool-badge">Regression Analysis</span>
+                            <span class="tool-badge">Data Cleaning</span>
+                        </div>
+                        <ul class="project-bullets">
+                            <li>Collected, cleaned, and merged multiple international datasets on disease prevalence and mortality rates across countries</li>
+                            <li>Identified the strongest positive correlation between disease prevalence and mortality across global datasets using regression analysis, highlighting key drivers of health outcomes</li>
+                            <li>Presented findings in a 15-minute data-driven presentation, effectively communicating statistical results to a non-technical audience</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-groups">
+                    <div class="skills-group">
+                        <h3>Financial &amp; Data Tools</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Excel</span>
+                            <span class="skill-badge">Power BI</span>
+                            <span class="skill-badge">Tableau</span>
+                            <span class="skill-badge">Bloomberg</span>
+                        </div>
+                    </div>
+                    <div class="skills-group">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Leadership -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience &amp; Leadership</h2>
+
+                <div class="experience-list">
+
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Vice President of Finance &amp; President of Finance</h3>
+                                <p class="org">Delta Tau Delta &mdash; Iowa City, IA</p>
+                            </div>
+                            <span class="exp-date">Dec 2023 &ndash; Present</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Managed finances for a 40+ member organization</li>
+                            <li>Developed and submitted an annual budget exceeding $70,000</li>
+                            <li>Oversaw financial planning and reporting to the central office</li>
+                            <li>Served as President of Finance December 2024 &ndash; December 2025</li>
+                        </ul>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Child Care Provider</h3>
+                                <p class="org">Kids Teen Connections &mdash; Johnston, IA</p>
+                            </div>
+                            <span class="exp-date">June 2024 &ndash; Current</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Mentored and supervised students, developing strong communication and service skills</li>
+                            <li>Collaborated with peers to ensure smooth daily operations</li>
+                            <li>Recognized by supervisors for strong work ethic, adaptability, and ability to manage challenging situations</li>
+                        </ul>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Referee</h3>
+                                <p class="org">U.S. Soccer Federation &mdash; Johnston, IA</p>
+                            </div>
+                            <span class="exp-date">Sept 2017 &ndash; May 2023</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Managed on-field operations with a team of three referees</li>
+                            <li>Developed leadership and conflict resolution skills by communicating with coaches and parents</li>
+                            <li>Ensured fair play and safety, contributing to high coach and player satisfaction and returning teams</li>
+                        </ul>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Member &mdash; Iowa Men's Club Soccer Team</h3>
+                                <p class="org">University of Iowa &mdash; Iowa City, IA</p>
+                            </div>
+                            <span class="exp-date">Aug 2024 &ndash; Present</span>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3>CIMBA Study Abroad Program</h3>
+                                <p class="org">Paderno del Grappa, Italy</p>
+                            </div>
+                            <span class="exp-date">May 2025 &ndash; June 2025</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Practiced multilingual communication with foreign students and professors</li>
+                            <li>Maintained a 3.85 GPA overseas</li>
+                            <li>Learned basic Italian for future use</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <section id="resume" class="section section-alt">
+            <div class="container resume-section">
+                <h2>Resume</h2>
+                <p>Download my full resume to see my complete experience, skills, and academic record.</p>
+                <a
+                    href="resume/colbydavis_resume.pdf"
+                    download
+                    class="btn btn-primary"
+                >Download Resume (PDF)</a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>I'm actively looking for internship and analyst opportunities. Feel free to reach out.</p>
+
+                <div class="contact-links">
+                    <a
+                        href="mailto:colbydavis1021@gmail.com"
+                        class="contact-link"
+                        aria-label="Send email to Colby Davis"
+                    >
+                        <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        colbydavis1021@gmail.com
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/colby-davis-6226342b6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                        aria-label="Colby Davis on LinkedIn (opens in new tab)"
+                    >
+                        <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        linkedin.com/in/colby-davis-6226342b6
+                    </a>
+                    <a
+                        href="https://github.com/colbydavis13"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                        aria-label="Colby Davis on GitHub (opens in new tab)"
+                    >
+                        <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        github.com/colbydavis13
+                    </a>
+                </div>
+
+                <form class="contact-form" action="#" method="post" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Colby Davis &middot; Iowa City, IA</p>
+        </div>
+    </footer>
+
 </body>
 </html>
